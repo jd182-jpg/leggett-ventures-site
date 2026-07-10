@@ -40,12 +40,10 @@
 
   // --- Count-up stats ---
   const nums = document.querySelectorAll('.stat__num[data-count]');
-  const reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   const animateCount = (el) => {
     const target = parseFloat(el.dataset.count);
     const prefix = el.dataset.prefix || '';
     const suffix = el.dataset.suffix || '';
-    if (reduceMotion) { el.textContent = prefix + target + suffix; return; }
     const dur = 1500;
     const start = performance.now();
     const step = (now) => {
@@ -159,6 +157,14 @@
     card.addEventListener('click', open);
     card.addEventListener('keydown', (e) => {
       if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(); }
+    });
+  });
+
+  // "led by [name]" links anywhere on the page open that person's bio modal
+  document.querySelectorAll('[data-bio]').forEach((el) => {
+    el.addEventListener('click', (e) => {
+      const id = el.dataset.bio;
+      if (MEMBERS[id]) { e.preventDefault(); openModal(id, el); }
     });
   });
 
