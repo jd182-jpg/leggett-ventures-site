@@ -76,7 +76,7 @@
       colleges: [{ name: 'University of North Carolina at Chapel Hill', logo: 'assets/colleges/unc.png' }],
       bio: [
         `Founder and Managing Partner of Houston-based private equity firm Leggett Ventures, John Leggett is an avid entrepreneur and investor. With an extensive portfolio spanning real estate, energy and alternatives, the Leggett Ventures portfolio has a total asset value in excess of $350 million. John is the co-founder of multiple portfolio companies including oil & gas investment firm Cannon Field, commercial real estate firm NewFound Partners, nationally recognized building firm On Point Custom Homes, and Frontier Title, which operates 17 locations across Texas, Florida, North Carolina, Utah and Tennessee.`,
-        `John started his career in investment banking as an analyst with Deutsche Bank and then in equity research with Credit Lyonnais, both covering the oil & gas industry. His passion for real estate turned into a full-time job when he launched On Point Custom Homes and left investment banking in 2004. From there, John's investment endeavors continued to expand — venturing into title, oil & gas, renewables and commercial real estate across the United States.`,
+        `John started his career in investment banking as an analyst with Deutsche Bank and then in equity research with Credit Lyonnais, both covering the oil & gas industry. His passion for real estate turned into a full-time job when he launched On Point Custom Homes and left investment banking in 2004. From there, John's investment endeavors continued to expand, venturing into title, oil & gas, renewables and commercial real estate across the United States.`,
         `John graduated from the University of North Carolina at Chapel Hill, where he earned a BS in Business and a Master's in Accounting. His accolades include being named to the Houston Business Journal's 40 Under 40, with multiple businesses named to the Inc. 5000, Houston's Best Places to Work, and Houston's Fastest-Growing Companies.`,
       ],
     },
@@ -94,7 +94,7 @@
       photo: 'assets/team/earl.jpg',
       colleges: [{ name: 'University of North Carolina at Chapel Hill', logo: 'assets/colleges/unc.png' }],
       bio: [
-        `Earl has worked alongside John for over twenty years and serves as Partner and CEO of On Point Custom Homes as part of Leggett Ventures. He plays a critical role in all investment projects, particularly managing projects through every phase of the development cycle — feasibility, design, pre-construction and construction.`,
+        `Earl has worked alongside John for over twenty years and serves as Partner and CEO of On Point Custom Homes as part of Leggett Ventures. He plays a critical role in all investment projects, particularly managing projects through every phase of the development cycle: feasibility, design, pre-construction and construction.`,
         `As CEO and President of On Point Custom Homes, a nationally and locally recognized custom homebuilding firm, Earl started his career in residential real estate as a project manager and now holds Graduate Master Builder and Certified Green Professional designations from the National Association of Home Builders. He was recently named one of Houston's Most Admired CEOs by the Houston Business Journal and serves as President of the Briargrove Homeowners Association.`,
       ],
     },
@@ -103,7 +103,7 @@
       photo: 'assets/team/brian.jpg',
       colleges: [{ name: 'Virginia Tech', logo: 'assets/colleges/virginia-tech.png' }],
       bio: [
-        `Brian serves as a Partner and CEO of the Oil & Gas and Minerals Investment Group within Leggett Ventures, managing a diverse portfolio spanning oil & gas — from upstream, downstream and petrochemical to mineral projects. After more than ten years at ExxonMobil, one of the world's largest oil & gas companies, Brian brought his diversified experience across upstream, downstream and petrochemicals to lead the expansion of mineral investment opportunities at Leggett Ventures.`,
+        `Brian serves as a Partner and CEO of the Oil & Gas and Minerals Investment Group within Leggett Ventures, managing a diverse portfolio spanning oil & gas, from upstream, downstream and petrochemical to mineral projects. After more than ten years at ExxonMobil, one of the world's largest oil & gas companies, Brian brought his diversified experience across upstream, downstream and petrochemicals to lead the expansion of mineral investment opportunities at Leggett Ventures.`,
         `He is instrumental in project management, negotiation, operations, and financial & data analysis. Brian's extensive industry experience, paired with his enthusiasm for big-data analysis and financial modeling, gives him a unique perspective for creating low-risk, high-return mineral opportunities for our investors. Brian earned a degree in Chemical Engineering from Virginia Tech.`,
       ],
     },
@@ -124,7 +124,7 @@
       photo: 'assets/team/eric.jpg',
       colleges: [{ name: 'University of North Carolina at Chapel Hill', logo: 'assets/colleges/unc.png' }],
       bio: [
-        `Eric Kline is a Managing Principal of Starlight Campgrounds, the firm's recreational-RV platform — a growing network of premium outdoor RV destinations across the Midwest.`,
+        `Eric Kline is a Managing Principal of Starlight Campgrounds, the firm's recreational-RV platform, a growing network of premium outdoor RV destinations across the Midwest.`,
       ],
     },
   };
