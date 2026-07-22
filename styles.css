@@ -263,7 +263,7 @@ a{color:inherit;text-decoration:none}
 
 /* team */
 .team{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
-.member{background:var(--navy-800);border:1px solid var(--line-dark);border-radius:6px;padding:32px;text-align:center;transition:transform .4s var(--ease),border-color .4s}
+.member{background:var(--navy-800);border:1px solid var(--line-dark);border-radius:6px;padding:32px;text-align:center;transition:transform .4s var(--ease),border-color .4s;display:flex;flex-direction:column}
 .member:hover{transform:translateY(-5px);border-color:rgba(112,169,161,.45)}
 .member__photo{
   position:relative;
@@ -362,7 +362,7 @@ a{color:inherit;text-decoration:none}
 /* ---- team card: clickable + college ---- */
 .member{cursor:pointer}
 .member:focus-visible{outline:2px solid var(--copper-light);outline-offset:4px}
-.member__college{margin-top:16px;display:flex;align-items:center;justify-content:center;gap:9px}
+.member__college{margin-top:auto;padding-top:16px;display:flex;align-items:center;justify-content:center;gap:9px}
 .cchip{width:46px;height:46px;border-radius:50%;background:#fff;display:flex;align-items:center;justify-content:center;padding:7px;box-shadow:0 8px 18px -8px rgba(0,0,0,.5)}
 .cchip img{max-width:100%;max-height:100%;object-fit:contain}
 .member__college span{font-size:.78rem;color:var(--muted-light)}
